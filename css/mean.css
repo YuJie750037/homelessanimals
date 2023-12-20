@@ -1,0 +1,93 @@
+@charset "utf-8";
+/* CSS Document */
+/*導覽列*/
+ul{
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+	height:30%;
+	height:30%;
+	list-style:none;
+}
+
+li{
+	width:100%;
+	border-left:2px solid #6d6774;
+	
+}
+li:last-child{
+	border-right:2px solid #6d6774;
+}
+li a{
+	display:flex;
+	flex-direction:column;
+	padding:10px 0;
+	color:#333;
+	font-size:18px;
+	font-weight:700;
+	text-align:center;
+	text-decoration:none;
+	line-height:1.6;
+	
+}
+li a h7{
+	color:#6d6774;	
+	font-size:13px;
+}
+
+
+
+ul {
+    /* overflow: hidden; */
+    margin: 0;
+    padding: 10px 20px 10px 20px;
+	background-color: #a57f86;
+}
+
+/*
+
+ul li:active{
+        background:#000000;
+    }
+ul li:focus{
+        background:olive;
+    }
+
+*/
+
+
+/*
+ul li:first-child a,
+ul li a[href$="index1.html"],
+ul li a[href$="index2.html"],
+ul li a[href$="index3.html"],
+ul li a[href$="index4.html"],
+ul li a[href$="index5.html"],
+ul li a[href$="index6.html"],
+ul li a[href$="index7.html"],
+ul li a[href$="index8.html"],
+ul li a[href$="index9.html"],
+ul li a[href$="index10.html"]{
+    background: #e58f91;
+	
+    border-radius: 5px 5px 0 0;
+}
+*/
+
+
+/*
+span ~ #tab > ul li:first-child a,
+index1:target ~ #tab > ul li a[href$="index1.html"],
+index2:target ~ #tab > ul li a[href$="index2.html"],
+index3:target ~ #tab > ul li a[href$="index3.html"],
+index4:target ~ #tab > ul li a[href$="index4.html"],
+index5:target ~ #tab > ul li a[href$="index5.html"],
+index6:target ~ #tab > ul li a[href$="index6.html"],
+index7:target ~ #tab > ul li a[href$="index7.html"],
+index8:target ~ #tab > ul li a[href$="index8.html"],
+index9:target ~ #tab > ul li a[href$="index9.html"],
+index10:target ~ #tab > ul li a[href$="index10.html"]{
+    background: #e58f91;
+	
+    border-radius: 5px 5px 0 0;
+}*/
